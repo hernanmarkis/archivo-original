@@ -9,7 +9,7 @@
     margin-left: 2px; }
 body 
     {background: rgb( 240, 240, 240); 
-    padding-top: 120px }
+    /* padding-top: 120px } */}
 
     nav {
         margin-top: 0;
@@ -17,7 +17,7 @@ body
     }
 h1 
     {color: rgb( 147, 25, 120); 
-    font-size: 60px; 
+    font-size: 50px; 
     font-family: 'Permanent Marker';
     text-align: center; 
     padding: 0px;
@@ -45,6 +45,8 @@ nav ul li
     {display: inline-block;
     margin: 0 50px; 
     position: relative;}
+.menu li:hover
+{transform: scale(1.1);}
 ol li 
     {margin-top: 5px}
 .integrantes ul li 
@@ -62,16 +64,24 @@ header
     z-index: 1;}
 header nav .menu li .submenu 
     {display: none;
-    position: absolute;}
+    position: absolute;
+    width: 80px;
+    padding: 2px;
+    text-align: left ;}
 header nav .menu li .submenu li 
-    {display: block;}
+    {display: block;
+    margin: 0;}
 header nav .menu li:hover .submenu 
     {display: block;}
+    header nav .submenu li:hover {
+        transform: scale(1);
+    } 
+.submenu li a {text-align: right}
 main {margin-top: 15px; 
-margin-left: 5px;}
+margin-left: 5px; padding-top: 80px }
 section {margin-top: 15px; 
-    margin-left: 5px;}
+    margin-left: 5px; padding-top: 80px }
 footer {margin-top: 15px; 
-    margin-left: 5px;}
+    margin-left: 5px; padding-top: 80px}
 
 
